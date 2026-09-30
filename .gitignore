@@ -1,0 +1,32 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/detector_demo_output.jpg
+
+# Environment Secrets
+.env
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# InsightFace Model Downloads Cache
+.insightface/
+
+# IDE files
+.vscode/
+.idea/
